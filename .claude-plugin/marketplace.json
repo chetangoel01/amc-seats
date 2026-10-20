@@ -1,0 +1,21 @@
+{
+  "name": "amc-seats",
+  "owner": {
+    "name": "Chetan Goel"
+  },
+  "metadata": {
+    "description": "AMC showtimes and interactive seat maps for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "amc-seats",
+      "description": "Find AMC showtimes for a movie and see every seat at every show as interactive seat maps, with the best open seats ranked",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/amc-seats"
+      ]
+    }
+  ]
+}
